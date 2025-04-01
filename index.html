@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location de Box - Page 1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Informations Personnelles</h1>
+        <form id="form">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" required>
+
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" required>
+
+            <label for="email">Adresse Email</label>
+            <input type="email" id="email" required>
+
+            <label for="adresse">Numéro de la voie</label>
+            <input type="text" id="numero_voie" required>
+
+            <label for="voie">Nom de la voie</label>
+            <input type="text" id="nom_voie" required>
+
+            <label for="codePostal">Code Postal</label>
+            <input type="text" id="code_postal" required>
+
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" required>
+
+            <label for="taille">Choisissez la taille du box</label>
+            <select id="taille" required>
+                <option value="15">15m² - 90€</option>
+                <option value="30">30m² - 120€</option>
+            </select>
+
+            <button type="submit">Valider</button>
+        </form>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

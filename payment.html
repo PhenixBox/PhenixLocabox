@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location de Box - Paiement</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Données Bancaires</h1>
+        <form id="paiement-form">
+            <label for="numCarte">Numéro de carte</label>
+            <input type="text" id="numCarte" required>
+
+            <label for="titulaire">Titulaire de la carte</label>
+            <input type="text" id="titulaire" required>
+
+            <label for="codeConfidentiel">Code confidentiel</label>
+            <input type="password" id="codeConfidentiel" required>
+
+            <button type="submit">Procéder au paiement</button>
+        </form>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
